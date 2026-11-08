@@ -1,7 +1,10 @@
 [core]
     analytics = false
-    remote = remote_gdrive
+    remote = origin
 ['remote "remote_storage"']
     url = ../../dvc_remote
 ['remote "remote_gdrive"']
     url = gdrive://1ksibSBe60Zoa-6YpmXoprkSUURFOKzm9
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/amghar.mohamed68/Template_MLOps_accidents.s3
